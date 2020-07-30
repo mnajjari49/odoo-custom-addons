@@ -1,0 +1,173 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* purchase_order_doble_aprobar
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-27 12:11+0000\n"
+"PO-Revision-Date: 2020-03-27 12:11+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: purchase_order_doble_aprobar
+#: model:mail.template,body_html:purchase_order_doble_aprobar.orden_para_aprobar
+msgid "\n"
+"            \n"
+"	      <p>\n"
+"	      Sr(a):<br/></p><br/><br/>\n"
+"	      Adjunto envío la dirección de la orden de compra para su aprobación:\n"
+"	      <br/>\n"
+"		  Orden a aprobar: ${ctx['base_url']}\n"
+"		  <br/>\n"
+"		  Gracias,  ${ctx['user_name']}\n"
+"	    \n"
+"	  "
+msgstr "\n"
+"            \n"
+"	      <p>\n"
+"	      Gửi ông (bà):<br/></p><br/><br/>\n"
+"	      Tôi xin gửi đơn hàng cần phê duyệt:\n"
+"	      <br/>\n"
+"		  Đơn cần duyệt: ${ctx['base_url']}\n"
+"		  <br/>\n"
+"		  Xin cảm ơn, ${ctx['user_name']}\n"
+"	    \n"
+"	  "
+
+#. module: purchase_order_doble_aprobar
+#: model:mail.template,body_html:purchase_order_doble_aprobar.orden_aprobada
+msgid "\n"
+"            \n"
+"	      <p>\n"
+"	      Sr(a):<br/></p><br/><br/>\n"
+"	      Orden de compra aprobada:\n"
+"	      <br/>\n"
+"		  Orden aprobada: ${ctx['base_url']}\n"
+"		  <br/>\n"
+"		  Saludos,  ${ctx['user_name']}\n"
+"	    \n"
+"	  "
+msgstr "\n"
+"            \n"
+"	      <p>\n"
+"	      Gửi ông (bà):<br/></p><br/><br/>\n"
+"	      Đơn hàng sau của ông (bà) đã được duyệt:\n"
+"	      <br/>\n"
+"		  Đơn hàng: ${ctx['base_url']}\n"
+"		  <br/>\n"
+"		  Cheers, ${ctx['user_name']}\n"
+"	    \n"
+"	  "
+
+#. module: purchase_order_doble_aprobar
+#: selection:purchase.order,state:0
+msgid "Approved"
+msgstr "Đã duyệt"
+
+#. module: purchase_order_doble_aprobar
+#: model_terms:ir.ui.view,arch_db:purchase_order_doble_aprobar.purchase_order_lines_extend
+msgid "Aprobar orden"
+msgstr "Xác nhận"
+
+#. module: purchase_order_doble_aprobar
+#: selection:purchase.order,state:0
+msgid "Cancelled"
+msgstr "Đã hủy"
+
+#. module: purchase_order_doble_aprobar
+#: model:ir.model,name:purchase_order_doble_aprobar.model_res_config_settings
+msgid "Config Settings"
+msgstr "Thiết lập cấu hình"
+
+#. module: purchase_order_doble_aprobar
+#: model_terms:ir.ui.view,arch_db:purchase_order_doble_aprobar.purchase_order_lines_extend
+msgid "Confirm Order"
+msgstr "Xác nhận đơn hàng"
+
+#. module: purchase_order_doble_aprobar
+#: selection:purchase.order,state:0
+msgid "Locked"
+msgstr "Đã khoá"
+
+#. module: purchase_order_doble_aprobar
+#: code:addons/purchase_order_doble_aprobar/models/purchase_aprobar.py:61
+#, python-format
+msgid "No tiene permiso para aprobar esta orden de compra"
+msgstr "Bạn không có quyền duyệt đơn hàng này"
+
+#. module: purchase_order_doble_aprobar
+#: code:addons/purchase_order_doble_aprobar/models/purchase_aprobar.py:75
+#, python-format
+msgid "No tiene permiso para aprobar esta orden de compra esperando la primera aprobacion"
+msgstr "Bạn không có quyền duyệt lần 1 cho đơn hàng này"
+
+#. module: purchase_order_doble_aprobar
+#: code:addons/purchase_order_doble_aprobar/models/purchase_aprobar.py:63
+#: code:addons/purchase_order_doble_aprobar/models/purchase_aprobar.py:72
+#, python-format
+msgid "No tiene permiso para aprobar esta orden de compra esperando la segunda aprobacion"
+msgstr "Bạn không có quyền duyệt lần 2 cho đơn hàng này"
+
+#. module: purchase_order_doble_aprobar
+#: model:mail.template,subject:purchase_order_doble_aprobar.orden_aprobada
+msgid "Orden de compra"
+msgstr "Đơn mua hàng"
+
+#. module: purchase_order_doble_aprobar
+#: model:mail.template,subject:purchase_order_doble_aprobar.orden_para_aprobar
+msgid "Orden de comra"
+msgstr "Đơn mua hàng"
+
+#. module: purchase_order_doble_aprobar
+#: model:ir.model,name:purchase_order_doble_aprobar.model_purchase_order
+#: selection:purchase.order,state:0
+msgid "Purchase Order"
+msgstr "Đơn mua hàng"
+
+#. module: purchase_order_doble_aprobar
+#: selection:purchase.order,state:0
+msgid "RFQ"
+msgstr "Y/c báo giá"
+
+#. module: purchase_order_doble_aprobar
+#: selection:purchase.order,state:0
+msgid "RFQ Sent"
+msgstr "Y/c báo giá đã được gửi"
+
+#. module: purchase_order_doble_aprobar
+#: model:ir.model.fields,field_description:purchase_order_doble_aprobar.field_purchase_order__state
+msgid "Status"
+msgstr "Trạng thái"
+
+#. module: purchase_order_doble_aprobar
+#: model:ir.model.fields,field_description:purchase_order_doble_aprobar.field_purchase_order__two_approval_purchase
+#: model:ir.model.fields,field_description:purchase_order_doble_aprobar.field_res_config_settings__two_approval_purchase
+msgid "Two Approval Purchase"
+msgstr "Duyệt đơn hàng 2 lần"
+
+#. module: purchase_order_doble_aprobar
+#: model:ir.model.fields,field_description:purchase_order_doble_aprobar.field_res_config_settings__users_one_approval_purchase
+msgid "Usuarios primera aprobacion"
+msgstr "Người duyệt lần 1"
+
+#. module: purchase_order_doble_aprobar
+#: model:ir.model.fields,field_description:purchase_order_doble_aprobar.field_res_config_settings__users_two_approval_purchase
+msgid "Usuarios segunda aprobacion"
+msgstr "Người duyệt lần 2"
+
+#. module: purchase_order_doble_aprobar
+#: selection:purchase.order,state:0
+msgid "Waiting for First Approval"
+msgstr "Chờ duyệt lần 1"
+
+#. module: purchase_order_doble_aprobar
+#: selection:purchase.order,state:0
+msgid "Waiting for Second Approval"
+msgstr "Chờ duyệt lần 2"
+
